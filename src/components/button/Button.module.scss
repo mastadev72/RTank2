@@ -1,0 +1,31 @@
+.button {
+   background-color: rgb(41, 77, 83);
+
+   .label {
+      color: white;
+   }
+}
+.button:hover {
+   background-color: rgb(189, 52, 254);
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+}
+
+body {
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: rgb(31, 30, 30);
+}
